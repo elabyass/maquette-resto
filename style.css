@@ -1,0 +1,188 @@
+@font-face{
+    font-family: "PlayfairDisplay";
+    src: url("font/PlayfairDisplay-Regular.ttf") ;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "PlayfairDisplay";
+}
+
+
+
+main{
+    width: 80%;
+    margin: 20px auto;
+    font-family: "PlayfairDisplay";
+}
+
+nav {
+    background-color: white;
+    -webkit-box-shadow: -3px 7px 14px 0px rgba(0,0,0,0.79); 
+    box-shadow: -3px 7px 14px 0px rgba(0,0,0,0.79);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+ul{
+    margin: 0;
+    padding: 0 12px;
+}
+
+li{
+    display: inline;
+    margin: 5px;
+}
+
+textarea{
+    resize: none;
+}
+#imgBurger{
+    background-image: url("img/hamburger.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+h1{
+    color: grey ;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 300;
+    padding: 0 10px;
+}
+
+#aboutCate{
+    display: flex;
+    margin: 20px; 
+}
+
+.aboutcater{
+    width: 100%;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+
+}
+
+
+@media screen and ( min-width:576px){
+    .aboutcater{width: 50%;
+
+    }
+}
+
+@media screen and (min-width: 992px){
+    .aboutcater{
+        width: 25%;
+    }
+}
+#aboutCate, #ourMenu{
+    display: flex;
+    
+}
+.textAbout{
+    text-align: center;
+}
+
+.textAbout p {
+    
+    text-align: left;
+}
+
+.tableD{
+     width: 50%;
+    
+}
+
+#ourMenu{
+    
+    display: flex;
+    
+    
+    
+}
+.tableM{
+    width: 50%;
+    }
+.textMenu{
+    
+    width: 50%;
+    text-align: center;
+    
+}
+
+.textMenu p{
+    text-align: left;
+
+}
+
+.textMenu h4 {
+    text-align: left;
+
+}
+div img{
+    width: 100%;
+    display: flex;
+    
+}
+
+h6{
+    text-align: left;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+form button{
+    margin: .9rem;
+    padding: .7rem;
+    border:none;
+    width: 150px
+}
+input, textarea{
+    padding: 0.8rem;
+    margin: 0.6rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+section h2 {
+    margin-top: 5%;
+}
+
+footer{
+    padding-top: 1rem;
+    height: 75px;
+    text-align: center;
+    background-color: grey;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700
+    ;
+}
+
+section strong{
+    color: blue;
+}
+
